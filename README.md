@@ -2,8 +2,15 @@ This is a demo tool that uses PhASAR as a library. The number of phasar librarie
 
 The demo tool has been adjusted to produce only the callgraph. Although it ends with a segmentation fault, the callgraph of the .ll file is written in a text file before the abrupt termination.
 
-Example:
+**Example**
 myphasartool test1.ll
 
-Output:
+**Output**
 Segmentation fault on console. Callgraph written in test1_callgraph.txt
+
+
+**Installation**
+mkdir build
+cd build
+cmake ..
+sudo make install
